@@ -4,5 +4,5 @@ Made for a Raspberry PI Pico W hooked up to a relay that switches a step down mi
 ## Usage
 ```conosle
 $ mkdir build && cd build
-$ cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -DPICO_SDK_PATH=<path-to-pico-sdk> -DPICO_BOARD=<target_board>
+$ cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -DPICO_SDK_PATH=<path-to-pico-sdk> -DPICO_BOARD=<target_board> ..
 ```
